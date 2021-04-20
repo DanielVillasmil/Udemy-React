@@ -5,6 +5,7 @@ function App() {
     <div>
       <h2>My udemy react-app</h2>
       <ExpenseItem></ExpenseItem>
+      <ExpenseItem></ExpenseItem>
     </div>
   );
 }
