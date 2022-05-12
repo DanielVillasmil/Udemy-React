@@ -7,7 +7,7 @@ function ExpenseItem() {
                 <div className='expense-item__description'>
                     <h2>Car Insurance</h2>
                 </div>
-            <div className='expense0-item__price'>$294.67</div>
+            <div className='expense-item__price'>$294.67</div>
         </div>
     );
 }
