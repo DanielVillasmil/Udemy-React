@@ -8,7 +8,7 @@ const NewExpense = (props) => {
             id: Math.random().toString()
         };
         //defined in App.js
-        props.onAddExpense
+        props.onAddExpense(expenseData);
     };
     
 
