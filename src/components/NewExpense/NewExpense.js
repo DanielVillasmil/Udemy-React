@@ -1,4 +1,4 @@
-import './NewExpense';
+import './NewExpense.css';
 
 const NewExpense = () => {
     return <div className='new-expense'>
