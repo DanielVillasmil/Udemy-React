@@ -22,15 +22,19 @@ const ExpenseForm = () => {
 
     const submitHandler = (event) => {
         event.preventDefault();
+        
+        const expenseData = {
+            title: enteredTitle,
+            amount: enteredAmount,
+            date: new Date (enteredDate)
+        };
+        
+        console.log(expenseData);
+        //set to empty string to clear the input in forms
+        setEnteredTitle('');
+        setEnteredAmount('');
+        setEnteredDate('');
     };
-
-    const expenseData = {
-        title: enteredTitle,
-        amount: enteredAmount,
-        date: new Date (enteredDate)
-    };
-
-    console.log(expenseData);
 
 
 
