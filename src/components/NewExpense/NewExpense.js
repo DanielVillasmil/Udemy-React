@@ -9,7 +9,7 @@ const NewExpense = (props) => {
     const saveExpenseDataHandler = (enteredExpenseData) => {
         const expenseData = {
             ...enteredExpenseData,
-            id: Math.random().toString()
+            id: Math.random().toString(),
         };
         //defined in App.js
         props.onAddExpense(expenseData);
@@ -31,8 +31,8 @@ const NewExpense = (props) => {
             )}
         {isEditing && (
             <ExpenseForm 
-            onSaveExpenseData={saveExpenseDataHandler} 
-            onCancel={stopEditingHandler}
+                onSaveExpenseData={saveExpenseDataHandler} 
+                onCancel={stopEditingHandler}
         />
         )}
     </div>
