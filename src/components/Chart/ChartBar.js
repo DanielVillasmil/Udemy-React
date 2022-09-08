@@ -1,4 +1,4 @@
-import './CharBar.css';
+import './ChartBar.css';
 
 const CharBar = props => {
     let barFillHeight = '0%';
